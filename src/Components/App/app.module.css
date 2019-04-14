@@ -1,0 +1,76 @@
+.navBar{
+  display: flex;
+  height: 7vh;
+  width: 100%;
+  
+}
+
+.naviComponents {
+  display: flex;
+  justify-content: flex-start;
+  width: 50vw;
+}
+
+.contactIconsMenu{
+display: flex;
+justify-content: flex-end;
+width: 50vw;
+height: 100%;
+}
+
+.twitterIcon {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%
+}
+
+.gitHubIcon {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%
+}
+
+.linkedInIcon {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.facebookIcon {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+@media (max-width: 1200px) {  } /* for desktops */
+
+@media (max-width: 991px) {  } /* for laptops */
+
+@media (min-width: 768px) and (max-width: 990px) {  } /* for large tablets */
+
+@media (max-width: 768px) {  } /* for smaller tablets */
+/* for mobile */
+@media screen and (max-width: 370px) { 
+
+.navBar{
+  display: flex;
+  flex-direction: column;
+  height: 10vh;
+  width: 100%;
+}
+
+.naviComponents {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+
+}
+
+.contactIconsMenu{
+width: 100vw;
+display: flex;
+justify-content: center;
+}
+
+ } 
+

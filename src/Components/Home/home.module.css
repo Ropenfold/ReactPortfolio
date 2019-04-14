@@ -1,0 +1,51 @@
+.totalContainer {
+
+display:flex;    
+width: 98%;
+height: 85vh;
+border: solid 5px red;
+}
+.firstContainer {
+display: flex;
+flex-direction:column; 
+width: 33%;
+height: 100%;
+border: solid 5px red;
+}
+
+.secondContainer {
+display: flex;
+flex-direction:column; 
+width: 33%;
+height: 100%;
+border: solid 5px red;
+}
+
+.thirdContainer {
+display: flex;
+flex-direction:column; 
+width: 34%;
+height: 100%;
+border: solid 5px red;
+}
+
+.collagephoto1 {
+    
+    width: 100%;
+    height: 45%;
+}
+.collagephoto2 {
+    
+    width: 100%;
+    height: 55%;
+}
+
+.collagephoto3 {
+    width: 100%;
+    height: 99%;
+}
+.collagephoto4 {
+    widows: 100%;
+    height: 99%;
+}
+
