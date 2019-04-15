@@ -2,12 +2,13 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Home from "../Home";
 import About from "../About";
-import Contact from "../Contact";
+import Project from "../Project";
 import css from '../App/app.module.css'
 import twitterBird from '../../images/twitter-circle.png';
 import githubLogo from '../../images/github-logo.png';
 import linkedInLogo from '../../images/LinkedInlogo.png';
 import facebookLogo from '../../images/facebook.png';
+import "../../../src/root.css"
 
 class App extends Component {
   render() {
@@ -16,15 +17,15 @@ class App extends Component {
         <div>
           <div className={css.navBar}>
             <div className={css.naviComponents}>
-            <Link to={"/"} className="nav-link">
+              <Link style={{ textDecoration: 'none' }} to={"/"} className="nav-link">
               Home
             </Link>
 
-            <Link to={"/contact"} className="nav-link">
-              Contact
+              <Link style={{ textDecoration: 'none' }} to={"/project"} className="nav-link">
+              Projects
             </Link>
 
-            <Link to={"/about"} className="nav-link">
+              <Link style={{ textDecoration: 'none' }} to={"/about"} className="nav-link">
               About
             </Link>
             </div>
@@ -37,7 +38,7 @@ class App extends Component {
           </div>
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/contact" component={Contact} />
+            <Route path="/projects" component={Project} />
             <Route path="/about" component={About} />
           </Switch>
         </div>

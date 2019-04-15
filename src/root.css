@@ -1,10 +1,20 @@
 /* import font family here */
+@import url('https://fonts.googleapis.com/css?family=Paytone+One');
 
 :root {
   --primaryColor: ;
   --secondaryColor: ;
   --bgColor: ;
   --accentColor: ;
-  --fontFamily: ;
+  --fontFamily: Paytone One, Arial;
 }
+
+html,
+body {
+
+  font-family: var(--fontFamily);
+  margin: 0;
+  padding: 0;
+}
+
 

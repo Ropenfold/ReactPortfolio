@@ -8,12 +8,12 @@ border: solid 5px red;
 .firstContainer {
 display: flex;
 flex-direction:column; 
-width: 33%;
+width: 100%;
 height: 100%;
 border: solid 5px red;
 }
 
-.secondContainer {
+/* .secondContainer {
 display: flex;
 flex-direction:column; 
 width: 33%;
@@ -27,12 +27,12 @@ flex-direction:column;
 width: 34%;
 height: 100%;
 border: solid 5px red;
-}
+} */
 
 .collagephoto1 {
     
     width: 100%;
-    height: 45%;
+    height: 100%;
 }
 .collagephoto2 {
     
