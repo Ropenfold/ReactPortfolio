@@ -1,15 +1,19 @@
-// Contact.js
+import React from 'react';
+import css from '../Project/project.module.css';
 
-import React, { Component } from "react";
+const Project = (props) => {
+    return(
+        <>
+    <div className={css.projectCard}>
+            <img src={`${props.imageLink}`} alt="project" />
+            <div className={css.container}>
+                <div>{props.name}</div>
+                <div>{props.description}</div>
+                <div>{props.createdUsing}</div>
+                <div>{props.gitHubLink}</div>
+                </div>
+    </div>
+    </>
+)}
 
-class Contact extends Component {
-  render() {
-    return (
-      <div>
-        <h2>Contact</h2>
-      </div>
-    );
-  }
-}
-
-export default Contact;
+export default Project;

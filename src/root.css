@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Paytone+One');
 
 :root {
-  --primaryColor: ;
-  --secondaryColor: ;
-  --bgColor: ;
-  --accentColor: ;
+  --primaryColor: #1c819e;
+  --secondaryColor: #005542;
+  --bgColor: #dfdfdf;
+  --accentColor: #ffbe00;
   --fontFamily: Paytone One, Arial;
 }
 

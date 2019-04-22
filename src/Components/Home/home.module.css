@@ -1,16 +1,15 @@
 .totalContainer {
 
 display:flex;    
-width: 98%;
-height: 85vh;
-border: solid 5px red;
+width: 100%;
+height: 100vh;
+background-color: var(--bgColor);
 }
 .firstContainer {
 display: flex;
 flex-direction:column; 
 width: 100%;
 height: 100%;
-border: solid 5px red;
 }
 
 /* .secondContainer {
