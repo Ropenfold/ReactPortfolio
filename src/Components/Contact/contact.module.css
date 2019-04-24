@@ -2,14 +2,8 @@
   display: flex;
   width: 100%;
   height: 100vh;
-  background-image: url("../../images/jexiste.jpg");
+  background-image: url("../../images/pawel-czerwinski-1144671-unsplash.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-
-.projectsContainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
