@@ -1,49 +1,38 @@
 .totalContainer {
+  position: absolute;
+  top: 0;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100vh;
   background-image: url("../../images/be-happy.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  z-index: -5;
 }
-.firstContainer {
+.nameContainer {
   display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 20%;
+  font-size: 70px;
+  background-color: whitesmoke;
+  opacity: 0.5;
+  padding: 10px;
 }
 
-/* .secondContainer {
-display: flex;
-flex-direction:column; 
-width: 33%;
-height: 100%;
-border: solid 5px red;
-}
-
-.thirdContainer {
-display: flex;
-flex-direction:column; 
-width: 34%;
-height: 100%;
-border: solid 5px red;
-} */
-
-.collagephoto1 {
-  width: 100%;
-  height: 100%;
-}
-.collagephoto2 {
-  width: 100%;
-  height: 55%;
-}
-
-.collagephoto3 {
-  width: 100%;
-  height: 99%;
-}
-.collagephoto4 {
-  widows: 100%;
-  height: 99%;
+.iAm {
+  position: absolute;
+  top: 43%;
+  left: 31%;
+  width: 40%;
+  height: 20%;
+  font-size: 70px;
+  padding: 10px;
+  color: var(--fontColor);
 }

@@ -7,9 +7,7 @@ class About extends Component {
     return (
       <>
         <div className={css.totalContainer}>
-          <div className={css.firstContainer}>
-            {/* <img className={css.collagephoto1} src={beHappy} alt="be-happy" /> */}
-          </div>
+          <div className={css.firstContainer} />
         </div>
       </>
     );
