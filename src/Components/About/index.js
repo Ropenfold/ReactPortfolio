@@ -7,7 +7,9 @@ class About extends Component {
     return (
       <>
         <div className={css.totalContainer}>
-          <div className={css.firstContainer} />
+          <div className={css.firstContainer}>
+            <div className={css.name}>Stuart Roper</div>
+          </div>
         </div>
       </>
     );

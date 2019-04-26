@@ -18,21 +18,96 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 40%;
-  height: 20%;
-  font-size: 70px;
-  background-color: whitesmoke;
-  opacity: 0.5;
+  width: 65vw;
+  min-width: 105px;
+  /* height: 25%; */
+  background-color: rgb(245, 245, 245, 0.6);
   padding: 10px;
+  border-radius: 25px;
 }
 
 .iAm {
-  position: absolute;
-  top: 43%;
-  left: 31%;
-  width: 40%;
-  height: 20%;
   font-size: 70px;
   padding: 10px;
   color: var(--fontColor);
+  text-align: center;
+}
+
+.iconsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 59%;
+  font-size: 70px;
+  background-color: rgb(245, 245, 245, 0.6);
+  padding: 10px;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+
+.reactLogo {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+}
+
+.htmlLogo {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+}
+
+.cssLogo {
+  height: 90px;
+  width: 60px;
+  padding: 10px;
+}
+
+.jsLogo {
+  height: 70px;
+  width: 70px;
+  padding: 15px;
+}
+
+.nodejsLogo {
+  height: 70px;
+  width: 120px;
+}
+
+.mongoDB {
+  height: 100px;
+  width: 100px;
+}
+
+.androidLogo {
+  height: 100px;
+  width: 100px;
+}
+
+@media only screen and (max-width: 370px) {
+  .iAm {
+    font-size: 20px;
+    padding: 5px;
+    color: var(--fontColor);
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .iconsContainer {
+    flex-wrap: wrap;
+  }
+
+  .totalContainer {
+    background-position: 30% 30%;
+  }
+
+  .iAm {
+    font-size: 50px;
+    padding: 10px;
+    color: var(--fontColor);
+    text-align: center;
+  }
 }
