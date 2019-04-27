@@ -1,0 +1,47 @@
+.iconsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 59%;
+  font-size: 70px;
+  background-color: rgb(245, 245, 245, 0.6);
+  padding: 10px;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+
+.reactLogo {
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+}
+
+.htmlLogo {
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+}
+
+.cssLogo {
+  height: 45px;
+  width: 30px;
+  padding: 5px;
+}
+
+.jsLogo {
+  height: 35px;
+  width: 35px;
+  padding: 7px;
+}
+
+.nodejsLogo {
+  height: 35px;
+  width: 60px;
+}
+
+.mongoDB {
+  height: 50px;
+  width: 50px;
+}
