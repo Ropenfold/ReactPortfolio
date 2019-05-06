@@ -1,19 +1,68 @@
-.projectCard {
-  /* Add shadows to create the "card" effect */
-  height: 350px;
-  width: 320px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  background-color: antiquewhite;
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: flex;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(202, 206, 203, 0.3);
+    font-size: var(--fontSize);
 }
 
-/* On mouse-over, add a deeper shadow */
-.projectCard:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+.barLine{
+    height: 10%;
+    width: 100vw;
+    background: rgba(202, 206, 203, 0.8);
+    text-align: center;
+    padding-bottom: 2%;
+    margin-bottom: 1%;
 }
 
-/* Add some padding inside the card container */
-.container {
-  padding: 2px 16px;
+h1 {
+    text-align: center;
 }
 
+.gitHubLogo{
+    width:  30px;
+    height: 30px;
+}
+
+.gitHubContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.createdUsing{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.created{
+    margin-right: 8px;
+}
+
+img {
+    margin-bottom: 1%;
+}
+
+a:link    {
+  /* Applies to all unvisited links */
+  text-decoration:  none;
+  color: var(--fontColor);
+
+  } 
+a:visited {
+  /* Applies to all visited links */
+  text-decoration:  none;
+  color: var(--fontColor);
+  } 
+
+a:hover   {
+  /* Applies to links under the pointer */
+  text-decoration:  underline;
+  color: var(--fontColor);
+  } 
+a:active  {
+  /* Applies to activated links */
+  color: var(--fontColor);
+  } 

@@ -14,9 +14,3 @@
   z-index: -5;
 }
 
-.projectsContainer {
-  display: flex;
-  flex-direction: row;
-  position: absolute;
-  top: 20%;
-}
