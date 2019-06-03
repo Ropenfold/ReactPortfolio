@@ -8,7 +8,6 @@ import css from "../App/app.module.css";
 import twitterBird from "../../images/twitter-circle.png";
 import githubLogo from "../../images/github-logo.png";
 import linkedInLogo from "../../images/LinkedInlogo.png";
-import facebookLogo from "../../images/facebook.png";
 import "../../../src/root.css";
 
 class App extends Component {
@@ -67,13 +66,6 @@ class App extends Component {
                   className={css.linkedInIcon}
                   src={linkedInLogo}
                   alt="linkedIn-logo"
-                />
-              </a>
-              <a href="https://www.facebook.com/stuart.roper1">
-                <img
-                  className={css.facebookIcon}
-                  src={facebookLogo}
-                  alt="facebook-logo"
                 />
               </a>
             </div>
