@@ -29,3 +29,19 @@
   margin-top: 70px;
   align-self: flex-end;
 }
+
+@media only screen and (max-width: 370px) {
+  
+  .totalContainer {
+    background-position: 30% 30%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+ 
+  .totalContainer {
+    background-position: 30% 30%;
+  }
+
+ 
+}
