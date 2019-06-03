@@ -26,6 +26,9 @@ class Home extends React.Component {
             <img className={css.mongoDB} src={MongoDB} alt="mongoDB" />
             <img className={css.androidLogo} src={Android} alt="androidLogo" />
           </div>
+          <div className={css.fullNameContainer}>
+            <div className={css.fullName}>Stuart Roper Full-stack Developer</div>
+          </div>
         </div>
       </>
     );

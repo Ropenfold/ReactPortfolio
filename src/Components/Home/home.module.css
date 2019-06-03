@@ -33,6 +33,13 @@
   text-align: center;
 }
 
+.fullName{
+  font-size: 30px;
+  padding: 10px;
+  color: var(--fontColor);
+  text-align: center;
+}
+
 .iconsContainer {
   display: flex;
   flex-wrap: wrap;
@@ -88,11 +95,17 @@
 
 @media only screen and (max-width: 370px) {
   .iAm {
-    font-size: 20px;
+    font-size: 10px;
     padding: 5px;
     color: var(--fontColor);
     text-align: center;
   }
+  .fullName{
+  font-size: 20px;
+  padding: 10px;
+  color: var(--fontColor);
+  text-align: center;
+}
 }
 
 @media only screen and (max-width: 768px) {
@@ -100,14 +113,60 @@
     flex-wrap: wrap;
   }
 
+  .fullName{
+  font-size: 20px;
+  padding: 10px;
+  color: var(--fontColor);
+  text-align: center;
+}
+
   .totalContainer {
     background-position: 30% 30%;
   }
 
   .iAm {
-    font-size: 50px;
+    font-size: 30px;
     padding: 10px;
     color: var(--fontColor);
     text-align: center;
   }
+
+  .reactLogo {
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+}
+
+.htmlLogo {
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+}
+
+.cssLogo {
+  height: 45px;
+  width: 30px;
+  padding: 10px;
+}
+
+.jsLogo {
+  height: 40px;
+  width: 40px;
+  padding: 15px;
+}
+
+.nodejsLogo {
+  height: 40px;
+  width: 70px;
+}
+
+.mongoDB {
+  height: 60px;
+  width: 60px;
+}
+
+.androidLogo {
+  height: 60px;
+  width: 60px;
+}
 }
