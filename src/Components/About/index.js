@@ -16,7 +16,7 @@ class About extends Component {
             <div className={css.infoContainer}>
               <div className={css.schoolOfCodeContainer}>
                 <div className={css.logoContainer}><img className={css.schoolOfCodeLogo} src={sOC} alt="School of Code"/></div>
-                <div className={css.schoolOfCodeText}> 16 week bootcamp course, I was taught a web development full stack including HTML, CSS, Javascript, React and Node.js. In addition I was taught important skills in project management and version control using Git, team work and pair programming. I learnt the following languages:</div></div>
+                <div className={css.schoolOfCodeText}> 16 week bootcamp course, I was taught a web development full stack including HTML, CSS, Javascript, React and Node.js.<div className={css.projectManagement}> In addition I was taught important skills in project management and version control using Git, team work and pair programming.</div> I learnt the following languages:</div></div>
                 <div className={css.skillsContainer}><Skills /></div>
               <div className={css.universityContainer}><div className={css.logoContainer}>
                 <img className={css.universityImage} src={uniImage} alt="University"/></div>

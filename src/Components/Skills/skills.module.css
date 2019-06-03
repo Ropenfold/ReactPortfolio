@@ -44,3 +44,9 @@
   height: 50px;
   width: 50px;
 }
+
+@media only screen and (max-width: 768px) {
+  .iconsContainer {
+  width: 80%;
+}
+}
