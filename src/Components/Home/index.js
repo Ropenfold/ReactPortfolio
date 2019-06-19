@@ -15,7 +15,7 @@ class Home extends React.Component {
       <>
         <div className={css.totalContainer}>
           <div className={css.nameContainer}>
-            <div className={css.iAm}>I'm Stuart. I build websites.</div>
+            <div className={css.iAm}>I'm Stuart. I'm a Developer.</div>
           </div>
           <div className={css.iconsContainer}>
             <img className={css.reactLogo} src={reactLogo} alt="React" />
